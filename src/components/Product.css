@@ -1,0 +1,46 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 16px;
+  animation: move-from-bottom 1s ease;
+}
+
+.product-card  > button {
+  margin: 16px;
+}
+
+.product-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.product-details {
+  margin-top: 20px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-qty,
+.product-price {
+  margin: 5px 0;
+}
+
+@keyframes move-from-bottom {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: 16px;
+  }
+}
+
+
+
